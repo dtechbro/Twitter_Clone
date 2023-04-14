@@ -5,7 +5,8 @@
 }
 
 body {
-
+    font-family: "poppins";
+    
 }
 
 .Twitter {
@@ -14,4 +15,14 @@ body {
 
 .logo {
     width: 40px;
+}
+
+.main_body {
+    border-left: 1px solid rgb(207, 207, 207);
+    border-right: 1px solid rgb(207, 207, 207);
+}
+
+.main_head {
+    display: flex;
+    font-size: 10px;
 }
