@@ -22,6 +22,16 @@ body {
     color: black;
 }
 
+.navlink li a:hover {
+    background: #d6d6d6;
+    padding: 8px 15px;
+    border-radius: 30px;
+}
+
+.fa-solid {
+    margin-right: 20px;
+}
+
 .tweetbtn {
     background: #1DA1F2;
     color: white;
