@@ -17,17 +17,16 @@ body {
     width: 40px;
 }
 
-.main_body {
-    border-left: 1px solid rgb(207, 207, 207);
-    border-right: 1px solid rgb(207, 207, 207);
-}
-
-.main_head {
-    display: flex;
-    font-size: 10px;
+.navlink li a {
+    text-decoration: none;
+    color: black;
 }
 
 .tweetbtn {
-    background: blue;
-    color: wheat;
+    background: #1DA1F2;
+    color: white;
+    padding: 10px 40px;
+    border: 0;
+    font-size: 18px;
+    border-radius: 30px;
 }
