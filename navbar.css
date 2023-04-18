@@ -13,10 +13,29 @@ body {
     display: flex;
 }
 
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
 .logo {
     width: 40px;
 }
 
+/* .navlink ul {
+    height: 500px;
+    background: yellow;
+    display: flex;
+
+    align-content: center;
+    justify-content: space-between;
+} */
+
+.navlink li {
+    list-style-type: none;
+}
 .navlink li a {
     text-decoration: none;
     color: black;
@@ -26,6 +45,10 @@ body {
     background: #d6d6d6;
     padding: 8px 15px;
     border-radius: 30px;
+}
+
+.navlink li a, .logo {
+    margin: 30px;
 }
 
 .fa-solid {
@@ -39,4 +62,13 @@ body {
     border: 0;
     font-size: 18px;
     border-radius: 30px;
+}
+
+.nav-foot {
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    width: 60px;
 }
