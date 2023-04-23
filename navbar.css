@@ -24,8 +24,6 @@ header {
 .navbar .navlink {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    
 }
 
 .navlink {
