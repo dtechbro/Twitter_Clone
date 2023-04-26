@@ -19,6 +19,7 @@
 
 </head>
 <body>
+    <!-- I divided the screen into three -->
 
     <main class="Twitter">
 
@@ -58,6 +59,7 @@
                 </ul>
                 <button href="" class="tweetbtn">Tweet</button>
             </div>
+
             <div class="nav-foot">
                 <img src="./Images/profile_pic.jpg" alt="#profile" class="profile">
                 <div>
@@ -68,39 +70,59 @@
             </div>
         </header>
 
+        <!-- a section for the tweet timeline -->
+
         <main class="main_body">
             <div class="home">
-                <h2>Home</h2>
+                <h4>Home</h4>
                 <div class="main_head">
-                    <h4>For you</h4>
-                    <h4>Following</h4>
+                    <h6>For you</h6>
+                    <h6>Following</h6>
                 </div>
             </div>
+
+            <!-- where to type the tweet -->
+
             <div class="typing">
                 <div>
                     <img src="./Images/profile_pic.jpg" alt="#profile" class="profile">
                 </div>
+
                 <div>
                     <div>
                         <input type="text" name="tweet" id="" placeholder="What's happening?" class="tweet_space">
                     </div>
-                    <div>
-                        <i class="fa-regular fa-image" style="color: #1da1f2;"></i>
-                        <i class="fa-solid fa-regular fa-light fa-gif" style="color: #1da1f2;"></i>
-                        <i class="fa-solid fa-list" style="color: #1da1f2;  margin: 0;"></i>
-                        <i class="fa-regular fa-face-smile" style="color: #1da1f2;"></i>
-                        <i class="fa-regular fa-calendar" style="color: #1da1f2;"></i>
-                        <i class="fa-solid fa-sharp fa-location-dot" style="color: #1da1f2;"></i>
-                    </div>
-                    <div>
-                        <button type="submit" class="btn_head">Tweet</button>
+
+                    <!-- footer in the tweet space with icons for img, polls, location and more... -->
+                    <div class="tweet_foot">
+                        <div>
+                            <i class="fa-regular fa-image" style="color:#1da1f2;"></i>
+
+                            <i class="fa-solid fa-regular fa-light fa-gif" style="color:#1da1f2;"></i>
+
+                            <i class="fa-solid fa-list" style="color:#1da1f2;  margin: 0;"></i>
+
+                            <i class="fa-regular    fa-face-smile" style="color:#1da1f2;"></i>
+
+                            <i class="fa-regular fa-calendar"   style="color:#1da1f2;"></i>
+
+                            <i class="fa-solid fa-sharp fa-location-dot" style="color:#1da1f2;"></i>
+                        </div>
+
+                        <div>
+                            <button type="submit" class="btn_head">Tweet</button>
+                        </div>
                     </div>
                 </div>
             </div>
             
         </main>
 
+        <!-- section with search bar and trending Tweets -->
         <section class="search">
+            <div class="search_bar">
+                <input type="text" placeholder="Search Twitter">
+            </div>
             <div class="trending">
                 <h2>Trends for you</h2>
 
@@ -112,6 +134,7 @@
                     </div>
                     <i class="fa-solid fa-ellipsis"></i>
                 </div>
+
                 <div class="trend_list">
                     <div>
                         <sub>Trending in sport</sub>
@@ -120,6 +143,7 @@
                     </div>
                     <i class="fa-solid fa-ellipsis"></i>
                 </div>
+
                 <div class="trend_list">
                     <div>
                         <sub>finance</sub>
@@ -128,6 +152,7 @@
                     </div>
                     <i class="fa-solid fa-ellipsis"></i>
                 </div>
+
                 <div class="trend_list">
                     <div>
                         <sub>sport</sub>
@@ -136,6 +161,7 @@
                     </div>
                     <i class="fa-solid fa-ellipsis"></i>
                 </div>
+
                 <div class="trend_list"></div>
                 <div class="trend_list"></div>
                 <div class="trend_list"></div>
