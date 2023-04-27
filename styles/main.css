@@ -16,6 +16,9 @@
     color: rgb(49, 49, 49);
 }
 
+.home {
+    padding: 10px 15px;
+}
 .typing {
     border: 1px solid rgb(207, 207, 207);
     border-left: 0;
