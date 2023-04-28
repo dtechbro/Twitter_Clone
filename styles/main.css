@@ -19,6 +19,7 @@
 .home {
     padding: 10px 15px;
 }
+
 .typing {
     border: 1px solid rgb(207, 207, 207);
     border-left: 0;
@@ -42,4 +43,32 @@
     border: 0;
     border-radius: 20px;
     color: white;
+}
+
+/* styles to tweet timeline */
+
+.tweet_made {
+    display: flex;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    padding: 10px;
+}
+
+.profile_pic {
+    width: 48px;
+    border-radius: 100%;
+}
+
+.tweeter_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tweeter_name {
+    display: flex;
+}
+
+.tweet_react, .tweet_react div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
