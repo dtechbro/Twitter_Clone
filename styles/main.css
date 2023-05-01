@@ -25,11 +25,17 @@
     border-left: 0;
     border-right: 0;
     display: flex;
+    padding: 10px;
+}
+
+.gibb {
+    width: 100%;
 }
 
 .tweet_space {
     border: 0;
     height: 30px;
+    width: 100%;
 }
 
 .tweet_foot {
@@ -65,6 +71,11 @@
 
 .tweeter_name {
     display: flex;
+}
+
+.timeline_pic {
+    width: 100%;
+    border-radius: 10px;
 }
 
 .tweet_react, .tweet_react div {
